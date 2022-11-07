@@ -1,0 +1,39 @@
+{
+  "name": "big-trip",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://fundxx.github.io/big-trip",
+  "description": "Проект «Большое путешествие» от HTML Academy",
+  "scripts": {
+    "build": "webpack --mode development",
+    "eslint": "eslint src/",
+    "start": "webpack-dev-server --open",
+    "test": "npm run eslint"
+  },
+  "devDependencies": {
+    "css-loader": "5.0.1",
+    "eslint": "7.13.0",
+    "eslint-config-htmlacademy": "3.0.0",
+    "gh-pages": "^4.0.0",
+    "style-loader": "2.0.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "chart.js": "2.9.4",
+    "chartjs-plugin-datalabels": "0.7.0",
+    "dayjs": "1.9.5",
+    "flatpickr": "4.6.6"
+  },
+  "main": "webpack.config.js",
+  "author": "fundxx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "big-trip"
+  }
+}
